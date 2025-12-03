@@ -1,0 +1,20 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Import and export cache
+.import/
+.export/
+.export_presets.cfg
+
+# Temporary & log files
+*.tmp
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+
+# Windows system files
+Thumbs.db
+desktop.ini

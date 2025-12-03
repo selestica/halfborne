@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://hupa5e0q1y7b"]
+
+[ext_resource type="Texture2D" uid="uid://bh31xt4vm5rqn" path="res://Vampire_Hunter_D.webp" id="1_4flbx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
+size = Vector2(149.5, 395)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(76.75, 449)
+shape = SubResource("RectangleShape2D_onrkg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(69, 441)
+scale = Vector2(0.4720588, 0.6857277)
+texture = ExtResource("1_4flbx")
